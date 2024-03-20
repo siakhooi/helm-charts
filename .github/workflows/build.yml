@@ -1,0 +1,28 @@
+name: Build
+
+on:
+  workflow_call:
+    secrets:
+      GHPAGES_GITHUB_TOKEN:
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: ./build.sh
+      - run: ls -l ./docs/index.yaml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: index.yaml
+          path: ./docs/index.yaml
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GHPAGES_GITHUB_TOKEN }}
+          publish_dir: ./docs

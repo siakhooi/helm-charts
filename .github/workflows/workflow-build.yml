@@ -1,0 +1,14 @@
+name: Build
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    uses: ./.github/workflows/build.yml
+    secrets:
+      GHPAGES_GITHUB_TOKEN: ${{ secrets.GHPAGES_GITHUB_TOKEN }}
