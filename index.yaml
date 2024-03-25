@@ -3,7 +3,19 @@ entries:
   hello-springboot-microservice:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-03-25T04:23:51.883464941Z"
+    created: "2024-03-25T04:53:22.875310919Z"
+    description: A Helm chart to POC Springboot Microservice
+    digest: eb7a24858e6a7fb5f4720d3635994aec2f171ab69fba34684b7e48b79d38b6d4
+    maintainers:
+    - name: Siak Hooi
+    name: hello-springboot-microservice
+    type: application
+    urls:
+    - https://siakhooi.github.io/helm-charts/hello-springboot-microservice/hello-springboot-microservice-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2024-03-25T04:53:22.875079407Z"
     description: A Helm chart to POC Springboot Microservice
     digest: d93800d50b7b2d0bb5d8d47f9072ed9a0d426d9aff8349cfb4f23976fb8fffe5
     maintainers:
@@ -15,7 +27,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-03-25T04:23:51.883255721Z"
+    created: "2024-03-25T04:53:22.874852594Z"
     description: A Helm chart to POC Springboot Microservice
     digest: e33b8b9001487a6768c61238036d79695cd548c9d7b3fbc48691a5184467a526
     maintainers:
@@ -25,4 +37,4 @@ entries:
     urls:
     - https://siakhooi.github.io/helm-charts/hello-springboot-microservice/hello-springboot-microservice-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-25T04:23:51.882916006Z"
+generated: "2024-03-25T04:53:22.874481241Z"
