@@ -3,7 +3,19 @@ entries:
   hello-springboot-microservice:
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-04-03T05:18:05.466621056Z"
+    created: "2024-04-03T05:31:13.436566471Z"
+    description: A Helm chart to POC Springboot Microservice
+    digest: 23de9f5ea15f1703d6461cd0aaf5c908acd92895228631c17bcece79c4e057f3
+    maintainers:
+    - name: Siak Hooi
+    name: hello-springboot-microservice
+    type: application
+    urls:
+    - https://siakhooi.github.io/helm-charts/hello-springboot-microservice/hello-springboot-microservice-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2024-04-03T05:31:13.436293859Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 755c7ef83dd247576bad31c9eb9ab70d00d614301b396ee554168d428f1898bc
     maintainers:
@@ -15,7 +27,7 @@ entries:
     version: 0.17.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-04-03T05:18:05.466363254Z"
+    created: "2024-04-03T05:31:13.435972015Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 8ff31446fb866a840f09672f41f2ffffac2ff57d2c0fc7841a283aaa35252b7e
     maintainers:
@@ -27,7 +39,7 @@ entries:
     version: 0.16.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-04-03T05:18:05.466128085Z"
+    created: "2024-04-03T05:31:13.43574081Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 0a25da7a76b970e352d5f518ca4a0d5b97fe62dfbb758a91a7074b481d694ebd
     maintainers:
@@ -39,7 +51,7 @@ entries:
     version: 0.15.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-04-03T05:18:05.465883228Z"
+    created: "2024-04-03T05:31:13.43550106Z"
     description: A Helm chart to POC Springboot Microservice
     digest: f6459e5fa7290e607fe8e0ac0dba1ab0a11f775ea011b10ffd6d4d5e8fe2d3cc
     maintainers:
@@ -51,7 +63,7 @@ entries:
     version: 0.14.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2024-04-03T05:18:05.465614155Z"
+    created: "2024-04-03T05:31:13.435231775Z"
     description: A Helm chart to POC Springboot Microservice
     digest: e2f4bb2c75f1ad87dd67665a87e2bbc2a27853f19c48f7cd8febf3257a514864
     maintainers:
@@ -63,7 +75,7 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2024-04-03T05:18:05.465337258Z"
+    created: "2024-04-03T05:31:13.434966737Z"
     description: A Helm chart to POC Springboot Microservice
     digest: dfb07277772acba864c8e5954c6710efdc7dfa54b88412ead93204009e15a197
     maintainers:
@@ -75,7 +87,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-04-03T05:18:05.465051705Z"
+    created: "2024-04-03T05:31:13.43469657Z"
     description: A Helm chart to POC Springboot Microservice
     digest: f8d0e644331a291d675c13701f2f7e985a69dcc0d4f6eea06318a10ab394652b
     maintainers:
@@ -87,7 +99,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-04-03T05:18:05.464764709Z"
+    created: "2024-04-03T05:31:13.434423928Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 82c92c7bab9e131b95d451feb3b69df89bc965f808017f798337dee4b0d0d2fe
     maintainers:
@@ -99,7 +111,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-04-03T05:18:05.468338032Z"
+    created: "2024-04-03T05:31:13.443605264Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 3f04bc09f8fe62ace4d68c2820fd5c4f5709252d53ffbe353d57a0f10ca77c7f
     maintainers:
@@ -111,7 +123,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.468103003Z"
+    created: "2024-04-03T05:31:13.443347851Z"
     description: A Helm chart to POC Springboot Microservice
     digest: f0c39c91909179dcd621ff868feb79cac204e6f3e3809247f2d03d43ec9a63f7
     maintainers:
@@ -123,7 +135,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.467867203Z"
+    created: "2024-04-03T05:31:13.437775531Z"
     description: A Helm chart to POC Springboot Microservice
     digest: e017acd61f111ade5a5701837d54189ebeeabce2eaac0e1d7794de7955997a7b
     maintainers:
@@ -135,7 +147,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.467636542Z"
+    created: "2024-04-03T05:31:13.437560898Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 01eef67b39072bca236b34c5a5bbce2c293342b2d9a942fbe4801838fc5c22dc
     maintainers:
@@ -147,7 +159,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.46738914Z"
+    created: "2024-04-03T05:31:13.437345393Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 12dfe45df5fe1877327559fc26d03bc300c0d2b6f1c713a3e0fbff86dae1b8fb
     maintainers:
@@ -159,7 +171,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.467163258Z"
+    created: "2024-04-03T05:31:13.437152401Z"
     description: A Helm chart to POC Springboot Microservice
     digest: 7e9ea96b89fd94157798738e3e8617abb1c6ce76a5cf30e056c80b7185c28886
     maintainers:
@@ -171,7 +183,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.466981048Z"
+    created: "2024-04-03T05:31:13.436937537Z"
     description: A Helm chart to POC Springboot Microservice
     digest: eb7a24858e6a7fb5f4720d3635994aec2f171ab69fba34684b7e48b79d38b6d4
     maintainers:
@@ -183,7 +195,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-03T05:18:05.46680015Z"
+    created: "2024-04-03T05:31:13.436754864Z"
     description: A Helm chart to POC Springboot Microservice
     digest: d93800d50b7b2d0bb5d8d47f9072ed9a0d426d9aff8349cfb4f23976fb8fffe5
     maintainers:
@@ -195,7 +207,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-04-03T05:18:05.464485929Z"
+    created: "2024-04-03T05:31:13.434125638Z"
     description: A Helm chart to POC Springboot Microservice
     digest: e33b8b9001487a6768c61238036d79695cd548c9d7b3fbc48691a5184467a526
     maintainers:
@@ -205,4 +217,4 @@ entries:
     urls:
     - https://siakhooi.github.io/helm-charts/hello-springboot-microservice/hello-springboot-microservice-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-03T05:18:05.464141435Z"
+generated: "2024-04-03T05:31:13.433778847Z"
