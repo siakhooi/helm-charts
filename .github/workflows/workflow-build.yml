@@ -12,3 +12,5 @@ jobs:
     uses: ./.github/workflows/build.yml
     secrets:
       GHPAGES_GITHUB_TOKEN: ${{ secrets.GHPAGES_GITHUB_TOKEN }}
+      GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+      GPG_KEY_NAME: ${{ secrets.GPG_KEY_NAME }}
