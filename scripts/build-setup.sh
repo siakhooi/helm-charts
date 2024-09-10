@@ -3,8 +3,8 @@
 set -e
 set -x
 
-apt install -y gpg
-apt install -y python3-venv
+sudo apt install -y gpg
+sudo apt install -y python3-venv
 
 tempDir=$(mktemp -d)
 
