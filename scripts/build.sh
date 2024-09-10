@@ -3,6 +3,9 @@
 set -e
 set -x
 
+# shellcheck disable=SC1091
+source "/tmp/venv/bin/activate"
+
 GNUPGHOME="$(mktemp -d)"
 export GNUPGHOME
 
