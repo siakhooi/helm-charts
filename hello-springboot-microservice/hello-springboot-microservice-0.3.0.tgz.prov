@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.3.0
+description: A Helm chart to POC Springboot Microservice
+maintainers:
+- - name: Siak Hooi
+name: hello-springboot-microservice
+type: application
+version: 0.3.0
+
+...
+files:
+  hello-springboot-microservice-0.3.0.tgz: sha256:eb7a24858e6a7fb5f4720d3635994aec2f171ab69fba34684b7e48b79d38b6d4
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEQ5X0e7BZ+HgweOt5SN6GbJPR2B8FAmbgHEsTHHNpYWtob29p
+QGdtYWlsLmNvbQAKCRBI3oZsk9HYH/MUD/9PywSKisIlALjYOn41bOkOak3khdTn
+s/vbXqG+KKvVXQbjBc5RrSGL+5W1ZKzPRIn1xiv+rJRdiby65uDeurIx2YqMzuLr
+E79AvldTFfKL1sDvWI95d2DheAgsrDrlDaePSPozMJVDzmtB7VD3Bf6XlcGJvnm2
+6zijJo8Ema/Wf3cnPwo/lmOQ3ZKHHMnKrVNhRkRgODr6pAR6amU6eNVaGPNu+F2i
+cI+Mt9GUl+OIfp6lgl+9WsnXX3KtclY7ACPMSbBvX2+cr8mItmWVsbcU+E2BY/0s
+UdmOBstlxs/xoXt3KyCoq53WklemPYRptWnw9UCV5YhzCgVj4LpBKnNmiCasRjCs
+0G6DN6BdAnwpbPHWnCAqPCefB3RMyOy6TQq7iag3NBrKSskJuHO4ptk8G0UjZFi9
+oNw+B/qmqTvrlccel8+s+rbPeGVKFn+CsEbPLKnD1gv2A71qH2aMGSAzDPHfbHna
+oUpVSEsGSmPaMacmyi75huw7+VE2xeEJj7eB/PuC7U4SWbPgmrbQmdz0/S6S9TsL
+37W+NwgvXVkZetX1imP3pHy6EAhKVc/sA2O/OQGeteapORJWjKPdf/TLRtCBGk+b
+BYxseW8XBYpuU4yBgXs0kNLZXTJzpioDNsFAYRS5bEVCGLBUQ8dLCcY1UAy8xs5J
+isa+jggLmZuATw==
+=3i9f
+-----END PGP SIGNATURE-----
