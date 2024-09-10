@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e
+set -x
+
 apt install -y gpg
 apt install -y python3-venv
 
