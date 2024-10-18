@@ -30,7 +30,7 @@ jobs:
         with:
           name: index.yaml
           path: ./docs/index.yaml
-      - uses: peaceiris/actions-gh-pages@v3
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GHPAGES_GITHUB_TOKEN }}
           publish_dir: ./docs
