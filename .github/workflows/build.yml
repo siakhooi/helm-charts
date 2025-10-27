@@ -26,7 +26,7 @@ jobs:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           GPG_KEY_NAME: ${{ secrets.GPG_KEY_NAME }}
       - run: ls -l ./docs/index.yaml
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: index.yaml
           path: ./docs/index.yaml
